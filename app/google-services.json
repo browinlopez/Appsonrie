@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "987213301591",
+    "project_id": "sonriaapp",
+    "storage_bucket": "sonriaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987213301591:android:8496d44496eaf0cfa46012",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987213301591-jdugnh9n082buk582o4c6u2laf59l3fl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "1140e56dfdf457073fe5a8af18ed241645e2af54"
+          }
+        },
+        {
+          "client_id": "987213301591-5p8b9qr7vp6konokhm6npqqed32o2la8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK2pnH2nETgfiWzNp-NWp77kK98biy4zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987213301591-5p8b9qr7vp6konokhm6npqqed32o2la8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

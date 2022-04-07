@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+    <string name="btn_IniciarSecion">Iniciar Sesion</string>
+    <string name="btn_registro">Registro</string>
+
+
+    <string name="btn_main">Inicio</string>
+
+
+    <string name="btn_iniciar">Iniciar Sesion</string>
+
+
+    <string name="btn_Registro">Registro</string>
+
+
+    <string name="btn_Fonoaudiologia">Fonoaudiologia</string>
+    <string name="btn_Psicologia">Psicologia</string>
+    <string name="btn_Odontologia">Odontologia</string>
+    <string name="btn_Temas">Temas de interes</string>
+
+</resources>

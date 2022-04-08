@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo2"
+    android:background="@drawable/fondoActivity"
     tools:context=".iniciarApp">
 
     <Button
@@ -23,10 +23,10 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintHorizontal_bias="0.276"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.216" />
+        app:layout_constraintVertical_bias="0.391" />
 
     <Button
         android:id="@+id/Psicologia"
@@ -44,10 +44,10 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintHorizontal_bias="0.367"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446" />
+        app:layout_constraintVertical_bias="0.556" />
 
     <Button
         android:id="@+id/Odontologia"
@@ -85,15 +85,15 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintHorizontal_bias="0.377"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.978" />
+        app:layout_constraintVertical_bias="0.896" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="71dp"
-        android:layout_height="57dp"
+        android:layout_width="56dp"
+        android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
@@ -102,16 +102,16 @@
         android:rotationY="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toEndOf="@+id/fonoaudiologia"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.219"
+        app:layout_constraintVertical_bias="0.394"
         app:srcCompat="@drawable/fonoaudiologia" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="71dp"
-        android:layout_height="57dp"
+        android:layout_width="65dp"
+        android:layout_height="54dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
@@ -120,16 +120,16 @@
         android:rotationY="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintStart_toEndOf="@+id/Psicologia"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.449"
+        app:layout_constraintVertical_bias="0.559"
         app:srcCompat="@drawable/psicologia" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="71dp"
-        android:layout_height="57dp"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
@@ -138,10 +138,10 @@
         android:rotationY="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toEndOf="@+id/Odontologia"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713"
+        app:layout_constraintVertical_bias="0.723"
         app:srcCompat="@drawable/odontologia" />
 
     <ImageView
@@ -153,42 +153,11 @@
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toEndOf="@+id/Temas_de_interes"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.985"
+        app:layout_constraintVertical_bias="0.902"
         app:srcCompat="@drawable/mas" />
-
-    <ImageView
-        android:id="@+id/Universidad"
-        android:layout_width="68dp"
-        android:layout_height="52dp"
-        android:layout_gravity="bottom"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/fonoaudiologia"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.073"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/metro" />
-
-    <ImageView
-        android:id="@+id/SonriApp"
-        android:layout_width="173dp"
-        android:layout_height="56dp"
-        android:layout_gravity="center"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/fonoaudiologia"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/fondo" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -201,10 +170,10 @@
         android:onClick="Salir"
         app:layout_constraintBottom_toTopOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintHorizontal_bias="0.922"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.013"
+        app:layout_constraintVertical_bias="0.028"
         app:srcCompat="@drawable/ic_home_black_24dp" />
 
 

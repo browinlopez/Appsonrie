@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+
 
     tools:context=".iniciar">
 
@@ -26,12 +26,13 @@
         android:shadowColor="#000000"
         android:textColor="#000000"
         android:textColorHint="#000000"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285" />
+        app:layout_constraintVertical_bias="0.568" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -63,40 +64,13 @@
 
         android:text="@string/btn_iniciar"
         android:textColor="#000000"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.371"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.398" />
-
-    <TextView
-        android:id="@+id/txtNotieneCuenta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Registrese"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.719"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.351" />
-
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="No tienes cuenta?"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.343"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.351" />
+        app:layout_constraintVertical_bias="0.643" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -106,7 +80,7 @@
         android:onClick="irMain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
@@ -132,53 +106,68 @@
         android:inputType="textPersonName"
         android:textColor="#000000"
         android:textColorHint="#000000"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.221" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageButton
         android:id="@+id/Instagram"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
         android:backgroundTint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721"
+        app:layout_constraintVertical_bias="0.839"
         app:srcCompat="@drawable/instagram"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/gmail"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:id="@+id/whatsapp"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
         android:backgroundTint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.642"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721"
-        app:srcCompat="@drawable/gmail"
+        app:layout_constraintVertical_bias="0.839"
+        app:srcCompat="@drawable/whatsapp"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/Facebook"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
         android:backgroundTint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintHorizontal_bias="0.327"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721"
+        app:layout_constraintVertical_bias="0.839"
         app:srcCompat="@drawable/facebook"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/twiter"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84"
+        app:srcCompat="@drawable/gorjeo"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
@@ -187,21 +176,22 @@
         android:layout_height="118dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.026"
-        app:srcCompat="@drawable/sonrieapp" />
+        app:layout_constraintVertical_bias="0.375"
+        app:srcCompat="@drawable/sonrieAppcolor" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="311dp"
-        android:layout_height="156dp"
+        android:id="@+id/imageView"
+        android:layout_width="99dp"
+        android:layout_height="78dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.561"
-        app:srcCompat="@drawable/sonrisa" />
+        app:layout_constraintVertical_bias="0.953"
+        app:srcCompat="@drawable/metro" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
